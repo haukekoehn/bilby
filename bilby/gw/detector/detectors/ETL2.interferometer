@@ -1,0 +1,13 @@
+# The proposed Einstein Telescope located in L shape in Lusatia, L = 15 km .
+# LIGO-T980044-10
+# https://dcc.ligo.org/LIGO-P1600143/public
+name = 'ETL2'
+power_spectral_density = PowerSpectralDensity(psd_file='ET_cryo_15km_psd.txt')
+length = 15
+minimum_frequency = 5
+maximum_frequency = 2048
+latitude = 51.162
+longitude = 14.892
+elevation = 241.4
+xarm_azimuth = 25.5674
+yarm_azimuth = 115.5674
