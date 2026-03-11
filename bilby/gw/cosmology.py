@@ -11,7 +11,7 @@ def _set_default_cosmology():
     from ..core.utils.meta_data import global_meta_data
     global DEFAULT_COSMOLOGY, COSMOLOGY
     if DEFAULT_COSMOLOGY is None:
-        DEFAULT_COSMOLOGY = cosmo.Planck15
+        DEFAULT_COSMOLOGY = cosmo.Planck18
         COSMOLOGY = [DEFAULT_COSMOLOGY, DEFAULT_COSMOLOGY.name]
         global_meta_data["cosmology"] = COSMOLOGY[0]
 
