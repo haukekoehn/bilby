@@ -2,7 +2,7 @@
 # LIGO-T980044-10
 # https://dcc.ligo.org/LIGO-P1600143/public
 name = 'CE'
-power_spectral_density = PowerSpectralDensity(psd_file='CE_20km_psd.txt')
+power_spectral_density = PowerSpectralDensity(psd_file='CE_40km_psd.txt')
 minimum_frequency = 5
 maximum_frequency = 2048
 length = 20
